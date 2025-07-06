@@ -1,0 +1,27 @@
+/* Custom styles */
+
+.styled-table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #333;
+  margin-top: 1rem;
+}
+
+.styled-table th, .styled-table td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
